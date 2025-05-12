@@ -1,18 +1,21 @@
 @layer gallery {
   .gallery {
-    display: flex;
     background-color: var(--secondary);
 
-    & aside {
-      flex: 1;
-      padding: 2rem;
-      border-radius: 0.5rem;
-      margin-right: 2rem;
+    & .gallery__content {
+      display: flex;
     }
-    & main {
+
+    & .gallery__left-block {
+      flex: 1;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    & .gallery__right-block {
       flex: 2;
-      padding: 2rem;
-      border-radius: 0.5rem;
     }
 
     & .gallery__title {

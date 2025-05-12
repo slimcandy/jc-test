@@ -1,7 +1,5 @@
 @layer footer {
-  .footer {
+  .footer__content {
     display: flex;
-    justify-content: center;
-    max-width: 1200px;
   }
 }
