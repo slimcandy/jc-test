@@ -1,0 +1,33 @@
+@import url("./theme.css") layer(theme);
+
+@layer hero {
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & .hero__cta {
+      width: auto;
+      max-width: 50%;
+      padding: 0.5rem 1rem;
+      margin: 1rem;
+
+      background-color: var(--secondary);
+
+      & h3 {
+        color: var(--font);
+        font-weight: bold;
+      }
+
+      & h2 {
+        color: var(--primary);
+        font-weight: bold;
+      }
+
+      & p {
+        color: var(--font);
+      }
+    }
+  }
+}

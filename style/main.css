@@ -1,5 +1,6 @@
 @import url("./reset.css") layer(reset);
 @import url("./header.css") layer(header);
+@import url("./hero.css") layer(hero);
 
 * {
   border: thin solid black;
