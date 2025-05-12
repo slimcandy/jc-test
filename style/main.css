@@ -3,6 +3,7 @@
 @import url("./hero.css") layer(hero);
 @import url("./featured.css") layer(featured);
 @import url("./product-list.css") layer(product-list);
+@import url("./gallery.css") layer(gallery);
 
 * {
   border: thin solid black;
