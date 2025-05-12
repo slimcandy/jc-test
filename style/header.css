@@ -1,0 +1,28 @@
+@import url("./theme.css") layer(theme);
+
+@layer header {
+  .header {
+    background-color: var(--white);
+
+    display: flex;
+    justify-content: space-around;
+
+    & .menu {
+      display: flex;
+      justify-content: center;
+
+      list-style-type: none;
+      padding: 0;
+
+      & a {
+        display: block;
+        padding: 1rem 0.5rem;
+      }
+
+      & .menu__icon {
+        min-width: 28px;
+        min-height: 28px;
+      }
+    }
+  }
+}
