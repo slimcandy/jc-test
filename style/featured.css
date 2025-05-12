@@ -1,0 +1,58 @@
+@layer featured {
+  .featured-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+
+    & .featured__title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    & .featured__description {
+      font-size: 1.2rem;
+      color: var(--font);
+      margin-bottom: 2rem;
+    }
+    & .featured__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      & .featured__item {
+        background-color: var(--secondary);
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+
+        list-style: none;
+        padding: 0;
+
+        & img {
+          max-width: 100%;
+          border-radius: 8px;
+        }
+
+        & h3 {
+          font-size: 1.5rem;
+          margin-top: 1rem;
+          color: var(--primary);
+        }
+
+        & p {
+          font-size: 1rem;
+          color: var(--font);
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+}
